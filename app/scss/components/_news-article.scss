@@ -1,0 +1,15 @@
+.news-article{
+    display: flex;
+    flex-flow: row wrap;
+    background-color:  $off-white;
+    margin-bottom: 	0.625rem;
+    &:last-child{
+    margin-bottom: 	0;
+    }
+    .article-img{
+        margin-left: -.9375rem;
+        height: 9.8125rem;
+        width: 15.625rem;
+        object-fit: cover;
+    }
+}

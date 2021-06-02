@@ -1,0 +1,57 @@
+.logo-text{
+    font-size: 1.5rem;
+    color:  $light-blue;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.nav-link{
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: $light-gray;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 1.4375rem;
+    color: $deep-blue;
+    font-weight: 700;
+}
+.smaller-text{ 
+    @include smaller-text($dark-gray);
+}
+.smaller-text_white{ 
+    @include smaller-text($white);
+}
+.small-text{
+    @include small-text($gray);
+}
+.small-text_white{
+    @include small-text($white);
+}
+.footer-copyright-text{
+    @include small-text($white);
+}
+h2{
+    font-size: 	1.5625rem;
+    color: $blue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h4{
+    @include heading-4($blue);
+}
+.heading-4_white{
+    @include heading-4($white);
+}
+.heading-6_white{
+    @include heading-6($white);
+}
+
+h6{
+    @include heading-6($blue);
+}
+.heading-6_spacing{
+    margin: 0.625rem 0;
+}
+.heading-4_spacing{
+    margin: 0.625rem 0;
+}

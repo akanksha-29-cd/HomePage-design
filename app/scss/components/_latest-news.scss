@@ -1,0 +1,10 @@
+
+.latest-news{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    &__overlay-content{
+        position: absolute;
+        bottom: 0;
+    }
+}

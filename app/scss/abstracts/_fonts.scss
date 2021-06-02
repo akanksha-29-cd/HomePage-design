@@ -1,0 +1,119 @@
+
+$path: './../../../homepage-design/app/fonts/';
+
+@font-face {
+    font-family: 'Roboto';
+    src: url($path + 'roboto-thin.eot');
+    src: url($path + 'roboto-thin.woff2') format('woff2'),
+         url($path + 'roboto-thin.woff') format('woff'),
+         url($path + 'roboto-thin.ttf') format('truetype'),
+         url($path + 'roboto-thin.svg') format('svg');
+         font-weight: 100;
+         font-style: normal;
+         font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url($path + 'roboto-light.eot');
+    src: url($path + 'roboto-light.woff2') format('woff2'),
+         url($path + 'roboto-light.woff') format('woff'),
+         url($path + 'roboto-light.ttf') format('truetype'),
+         url($path + 'roboto-light.svg') format('svg');
+         font-weight: 300;
+         font-style: normal;
+         font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url($path + 'roboto-medium.eot');
+    src: url($path + 'roboto-medium.woff2') format('woff2'),
+         url($path + 'roboto-medium.woff') format('woff'),
+         url($path + 'roboto-medium.ttf') format('truetype'),
+         url($path + 'roboto-medium.svg') format('svg');
+         font-weight: 500;
+         font-style: normal;
+         font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url($path + 'roboto-bold.eot');
+    src: url($path + 'roboto-bold.woff2') format('woff2'),
+         url($path + 'roboto-bold.woff') format('woff'),
+         url($path + 'roboto-bold.ttf') format('truetype'),
+         url($path + 'roboto-bold.svg') format('svg');
+         font-weight: 700;
+         font-style: normal;
+         font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url($path + 'roboto-black.eot');
+    src: url($path + 'roboto-black.woff2') format('woff2'),
+         url($path + 'roboto-black.woff') format('woff'),
+         url($path + 'roboto-black.ttf') format('truetype'),
+         url($path + 'roboto-black.svg') format('svg');
+         font-weight: 900;
+         font-style: normal;
+         font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url($path + 'roboto-regular.eot');
+    src: url($path + 'roboto-regular.woff2') format('woff2'),
+         url($path + 'roboto-regular.woff') format('woff'),
+         url($path + 'roboto-regular.ttf') format('truetype'),
+         url($path + 'roboto-regular.svg') format('svg');
+         font-weight: 400;
+         font-style: normal;
+         font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url($path + 'RobotoSlabThin.eot');
+    src: url($path + 'RobotoSlabThin.woff2') format('woff2'),
+         url($path + 'RobotoSlabThin.woff') format('woff'),
+         url($path + 'RobotoSlabThin.ttf') format('truetype'),
+         url($path + 'RobotoSlabThin.svg') format('svg');
+         font-weight: 100;
+         font-style: normal;
+         font-display: swap
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url($path + 'RobotoSlabLight.eot');
+    src: url($path + 'RobotoSlabLight.woff2') format('woff2'),
+         url($path + 'RobotoSlabLight.woff') format('woff'),
+         url($path + 'RobotoSlabLight.ttf') format('truetype'),
+         url($path + 'RobotoSlabLight.svg') format('svg');
+         font-weight: 300;
+         font-style: normal;
+         font-display: swap
+}
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url($path + 'RobotoSlabRegular.eot');
+    src: url($path + 'RobotoSlabRegular.woff2') format('woff2'),
+         url($path + 'RobotoSlabRegular.woff') format('woff'),
+         url($path + 'RobotoSlabRegular.ttf') format('truetype'),
+         url($path + 'RobotoSlabRegular.svg') format('svg');
+         font-weight: 300;
+         font-style: normal;
+         font-display: swap
+}
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url($path + 'RobotoSlabBold.eot');
+    src: url($path + 'RobotoSlabBold.woff2') format('woff2'),
+         url($path + 'RobotoSlabBold.woff') format('woff'),
+         url($path + 'RobotoSlabBold.ttf') format('truetype'),
+         url($path + 'RobotoSlabBold.svg') format('svg');
+         font-weight: 700;
+         font-style: normal;
+         font-display: swap
+}
+

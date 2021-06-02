@@ -1,0 +1,45 @@
+  /* Font Family */
+  $roboto: 'Roboto', sans-serif;
+  $robotoSlab: 'RobotoSlab', serif;
+
+  /* Default Font size */
+  $default-size: 1rem;
+
+ /* Font weight sizes */
+ $roboto-400 : normal;
+ $roboto-100 : 100;
+ $roboto-300 : 300;
+ $roboto-500 : 500;
+ $roboto-700 : 700;
+ $roboto-900 : 900;
+
+ $robotoslab-100: 100;
+ $robotoslab-300: 300;
+ $robotoslab-400: 400;
+ $robotoslab-700: 700;
+
+ /* colors */
+ $white: #fff;
+ $off-white: #f1f1f4;
+ $light-gray: #909090;
+ $dark-gray: #7d7d7d;
+ $gray: #8a8a8a;
+ $deep-blue: #13224f;
+ $blue: #051767;
+ $light-blue:#001f79;
+ $pink: #c82877;
+ $light-pink: #e82e85;
+
+
+/***** Breakpoints *****/
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;

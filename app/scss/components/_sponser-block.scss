@@ -1,0 +1,23 @@
+.sponser-section{
+    background-color:  $off-white;
+    padding-left: 2.5rem;
+    .sponser{
+        display: inline-block;
+        padding: 1.25rem 2.5rem;
+    }
+    .img-gradient{
+        position: relative;
+        display: inline-block;
+        &:after{
+            content: '';
+            position:absolute;
+            left:0; 
+            top:0;
+            width:100%;
+            height:100%;
+            display:inline-block;
+            background: linear-gradient(0deg, #b72777 0%, #e13371 50%, #fd832f 100%);
+            filter: opacity(0.8);
+        }
+    }
+}

@@ -1,0 +1,56 @@
+@mixin heading-4($color){
+    font-size: 1.1875rem;
+    color: $color;
+    font-weight: 700;
+}
+@mixin heading-6($color){
+    font-size:0.75rem;
+    color: $color;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+@mixin small-text($color){
+    font-size: 0.875rem;
+    color: $color;
+    font-weight: 400;
+}
+@mixin smaller-text($color){
+    font-size: 0.75rem;
+    color: $color;
+    font-weight: 400;
+}
+
+// Small devices
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+ 
+ // Medium devices
+ @mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ 
+ // Large devices
+ @mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+ 
+ // Extra large devices
+ @mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+ }
+
+ // Custom devices
+@mixin rwd($screen) {
+    @media (min-width: $screen+'px') {
+        @content;
+    }
+ }

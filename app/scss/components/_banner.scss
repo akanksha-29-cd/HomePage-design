@@ -1,0 +1,17 @@
+.banner{
+    position: relative;
+    &-img{
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+    &__description{
+        position: absolute;
+        bottom: 0;
+    }
+    &__slider-icon{
+        position: absolute;
+        bottom: 9%;
+        right: 6%;
+    }
+}
